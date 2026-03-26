@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box"></div>
+    <button id="btn1">Slide UP</button>
+    <button id="btn2">Slide Down</button>
+    <button id="btn3">Slide Toggle</button>
+    <button id="btn4">Fade In</button>
+    <button id="btn5">Fade Out</button>
+    <button id="btn6">Fade Toggle</button>
+    <button id="btn7">Fade To</button>
+    <script src="jquery.min.js"></script>
+    <script>
+        // $(".box").css("color","red")
+        // $(".box").css("backgroundColor","red")
+        // camelcase
+        $(".box").css({
+            backgroundColor:"red",
+            height:"200px",
+            width:"200px",
+            border:"2px solid black",
+            margin:"10px"
+        })
+
+        $("#btn1").click(function(){
+            $(".box").slideUp(2000)
+        })
+        $("#btn2").click(function(){
+            $(".box").slideDown(4000)
+        })
+        $("#btn3").click(function(){
+            $(".box").slideToggle(3000)
+        })
+        $("#btn4").click(function(){
+            $(".box").fadeIn(2000)
+        })
+        $("#btn5").click(function(){
+            $(".box").fadeOut(2000)
+        })
+        $("#btn6").click(function(){
+            $(".box").fadeToggle(2000)
+        })
+        $("#btn7").click(function(){
+            $(".box").fadeTo(3000,0.2)
+        })
+        
+    </script>
+</body>
+</html>

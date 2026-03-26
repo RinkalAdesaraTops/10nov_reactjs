@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .test{
+            background-color: blue !important;
+            height: 200px;
+            width: 200px;
+            border:2px solid black;
+            margin:10px
+
+        }
+        /* .box{
+            background-color: red;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box" id="b1"></div>
+    <button id="btn1">Show</button>
+    <button id="btn2">Hide</button>
+    <button id="btn3">Add class(test)</button>
+    <button id="btn4">Remove class(test)</button>
+    <script src="jquery.min.js"></script>
+    <script>
+        $(".box").css({
+            backgroundColor:"red",
+            height:"200px",
+            width:"200px",
+            border:"2px solid black",
+            margin:"10px"
+        })
+        $("#btn1").click(function(){
+            // $(".box").show()
+            // $(".box").css("display","block")
+        })
+        $("#btn2").click(function(){
+            // $(".box").hide()
+            // $(".box").css("display","none")
+        })
+        $("#btn3").click(function(){
+            $("#b1").removeClass("box")
+            $("#b1").addClass("test")
+        })
+        $("#btn4").click(function(){
+            $("#b1").toggleClass("test box")
+            // $("#b1").removeClass("test").addClass("box")
+        })
+    </script>
+</body>
+</html>

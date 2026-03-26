@@ -1,0 +1,13 @@
+what is js?
+DOM
+== & === diff
+let var const
+What is the this keyword in JavaScript?
+What is object destructuring?
+What is array destructuring?
+What is the spread operator (...)?
+What is the rest operator?
+What is the difference between map(), filter()
+What is the difference between some & every function
+find,filter & includes
+What is the difference between forEach() and map()?
