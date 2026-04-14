@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "test1233",
+      "age": "35"
+    },
+    {
+      "name": "dgdfg",
+      "age": "27",
+      "id": "E2tKb0iomN8"
+    }
+  ],
+  "category": [],
+  "products": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
