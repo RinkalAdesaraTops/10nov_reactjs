@@ -6,6 +6,8 @@ import Refexample from './Refexample'
 import ContextExample from './ContextExample'
 import UseContextExample from './UseContextExample'
 import UserCrud from './UserCrud'
+import MemoExample from './MemoExample'
+import Customhook from './Customhook'
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <Refexample /> */}
       {/* <ContextExample /> */}
       {/* <UseContextExample /> */}
-      <UserCrud />
+      {/* <UserCrud /> */}
+      {/* <MemoExample /> */}
+      <Customhook />
     </>
   )
 }
