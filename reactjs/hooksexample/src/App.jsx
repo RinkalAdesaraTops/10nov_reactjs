@@ -15,10 +15,10 @@ function App() {
       <h3>Hooks Example</h3>
       {/* <Refexample /> */}
       {/* <ContextExample /> */}
-      {/* <UseContextExample /> */}
+      <UseContextExample />
       {/* <UserCrud /> */}
       {/* <MemoExample /> */}
-      <Customhook />
+      {/* <Customhook /> */}
     </>
   )
 }

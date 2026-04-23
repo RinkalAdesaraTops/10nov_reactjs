@@ -2,8 +2,8 @@ import React, { useState,createContext, useContext } from 'react'
 const Userdata = createContext()
 const UseContextExample = () => {
     let data = {
-        name:"sdfsd",
-        age:24
+        name:"Rinkal ma'am",
+        age:32
     }
    let [name,setName] = useState("Test123")
    let [age,setAge] = useState("Test123")
