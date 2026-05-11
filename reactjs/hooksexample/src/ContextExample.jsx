@@ -10,7 +10,7 @@ const ContextExample = () => {
     </div>
   )
 }
-const Component2 = ({name})=>{
+const Component2 = ({name})=> {
     return (
         <div>
             <h3>Component - 2 called...</h3>  
