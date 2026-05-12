@@ -28,7 +28,23 @@
       "pname": "asdf",
       "price": "465",
       "desc": "shdfjg sdfhgsdjhfg",
-      "image":""
+      "image":"img/vegetable-item-4.jpg"
+    },
+    {
+      "id": 2,
+      "catid": 1,
+      "pname": "trert",
+      "price": "600",
+      "desc": "shdfjg sdfhgsdjhfg",
+      "image":"img/vegetable-item-1.jpg"
+    },
+    {
+      "id": 2,
+      "catid": 2,
+      "pname": "trert",
+      "price": "600",
+      "desc": "shdfjg sdfhgsdjhfg",
+      "image":"img/vegetable-item-3.png"
     }
   ]
 }
